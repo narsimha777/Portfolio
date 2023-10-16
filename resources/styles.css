@@ -10,7 +10,11 @@ header{
     background-color: black;  
     padding-top: 10px;
 }
-
+@media only screens and (max-width:400px){
+    #sk1,#sk2,#sk3,#sk4,#sk5{
+        font-size: smaller;
+    }
+}
 header #nav{
     float: right;
     padding-right: 10px;
@@ -47,6 +51,7 @@ header em:hover{
     background: url("./images/thom-holmes-k-xKzowQRn8-unsplash.jpg");
     background-size: 860px 860px;
     display: flex;
+    flex: 2 1 auto;
     justify-content: space-around;
     border: 10px solid orange;
 }
@@ -76,6 +81,7 @@ header em:hover{
     padding-top: 50px;
     border: 10px solid blue;
     display: flex;
+    flex: 2 1 auto;
     flex-flow: row wrap;
     justify-content: space-around;
     background: url("./images/safar-safarov-koOdUvfGr4c-unsplash.jpg");
@@ -150,6 +156,7 @@ footer h1{
 footer #contact{
     float: center;
     display: flex;
+    flex: 2 1 auto;
     justify-content: flex-start;
 }
 
@@ -164,6 +171,7 @@ footer #contact{
 
 #imgconatiner{
     display: flex;
+    flex: 2 1 auto;
     justify-content: space-around;
     padding: 10px;
 }
